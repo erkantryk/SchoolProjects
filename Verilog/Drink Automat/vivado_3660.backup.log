@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Jan 13 01:26:44 2023
+# Process ID: 3660
+# Current directory: C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2876 C:\Users\Egeha\Desktop\Erkan Digital Design\finalProjectErkan\finalProjectErkan.xpr
+# Log file: C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/vivado.log
+# Journal file: C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/finalProjectErkan.xpr}
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/finalProjectErkan.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'drinkAutomattb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/finalProjectErkan.sim/sim_1/behav'
+"xvlog -m64 --relax -prj drinkAutomattb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/finalProjectErkan.srcs/sources_1/new/drinkAutomat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drinkAutomat
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/finalProjectErkan.srcs/sim_1/new/drinkAutomattb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drinkAutomattb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/finalProjectErkan.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/finalProjectErkan.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto b695cc0eccd847dd82b3089c3373f6b5 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot drinkAutomattb_behav xil_defaultlib.drinkAutomattb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.drinkAutomat
+Compiling module xil_defaultlib.drinkAutomattb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot drinkAutomattb_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Egeha/Desktop/Erkan -notrace
+couldn't read file "C:/Users/Egeha/Desktop/Erkan": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Fri Jan 13 01:26:57 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/finalProjectErkan.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "drinkAutomattb_behav -key {Behavioral:sim_1:Functional:drinkAutomattb} -tclbatch {drinkAutomattb.tcl} -view {C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/drinkAutomattb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+open_wave_config C:/Users/Egeha/Desktop/Erkan
+ERROR: [Wavedata 42-2] Error while reading WCFG file 'C:/Users/Egeha/Desktop/Erkan.wcfg'.
+open_wave_config Digital
+ERROR: [Wavedata 42-2] Error while reading WCFG file 'C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/finalProjectErkan.sim/sim_1/behav/Digital.wcfg'.
+open_wave_config Design/finalProjectErkan/drinkAutomattb_behav.wcfg
+ERROR: [Wavedata 42-2] Error while reading WCFG file 'C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/finalProjectErkan.sim/sim_1/behav/Design/finalProjectErkan/drinkAutomattb_behav.wcfg'.
+source drinkAutomattb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'drinkAutomattb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 13 01:27:31 2023...

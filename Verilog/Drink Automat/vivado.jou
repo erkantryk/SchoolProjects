@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Jan 13 01:27:38 2023
+# Process ID: 10232
+# Current directory: C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18784 C:\Users\Egeha\Desktop\Erkan Digital Design\finalProjectErkan\finalProjectErkan.xpr
+# Log file: C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/vivado.log
+# Journal file: C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Egeha/Desktop/Erkan Digital Design/finalProjectErkan/finalProjectErkan.xpr}
+launch_simulation
+source drinkAutomattb.tcl
+close_sim
